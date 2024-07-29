@@ -1,23 +1,6 @@
-## 1 task
-a = True
-b = False
-## c = a * b yoxlamaq və nəticə haqqında düşünmək 
-## c = a + b yoxlamaq və nəticə haqqında düşünmək     
-## c = d - b yoxlamaq və nəticə haqqında düşünmək
-## c = d / b yoxlamaq və nəticə haqqında düşünmək
-
-## 2 task 
-a = 3
-b = 5 
-c= b**3
-print (c)
-## b - dən istifadə etmədən a-nın nəticəsini 8 almaq 
-## c - dən istifadə edərək a-nı kvadratına yüksəlmək 
-## c - dən istifadə edərək b-ni üstü 3 qiymətə yüksəlmək 
-
-## 3 task 
-a = 1
-b = 0 
-## a və b arasında and, or, not əməliyyaltları aparmaq və nəticə haqqında düşünmək 
-
-## hər bir taskı ayrı ayrı fayllarda edib mənə göndəriniz Suna xanım :)
+a = [1, 2, 3, 4, 5, 6, 7, 8 ,9]
+## 2 elə rəqəmləri toplamaq ki, nəticədə 11 alınsın 
+## sondan 3 rəqəmi ard arda göstərmək 
+## a listi daxilindəki 5 rəqəmini hər iki üsulla göstərmək 
+## 8 və 9 ədədlərini toplamaq 
+## istəyə görə b listi təyin edib a listi ilə toplamaq və nəticə haqqında düşünmək  
