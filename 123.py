@@ -1,16 +1,9 @@
-a=2
-b=3
-c=a*b
-print(c)
-c=a*a
-print(c)
-c=a*a
-print("a*a" ,c)
-a=a+1
-print(a)
-a=a+1
-print("a+1" ,a)
-c=b/a
-print(c)
-c=b/a
-print("b/a = " ,c)
+a=[1,2,3,4,5,6,7,8,9]
+b=[11,12,13,14,15,16,17,18,19]
+print(a[1]+a[-1])
+print(a[1]+a[8])
+print(a[-1],a[-2],a[-3])
+print(a[4])
+print(a[-5])
+print(a[7]+a[8])
+print(a[7]+b[4])
