@@ -1,6 +1,4 @@
-## boş bir list qurub, append metodundan istifadə edərək listə həm string həm int həm də bool elementi daxil etmək
-## 1-ci taskı etdikdən sonra əlavə etdiyiniz elementlərin üzərinə listin 2-ci elementi olacaq şəkildə yeni element daxil etmək
-## 2-ci taskı etdikdən sonra listin ilk elementini onun adından istifadə edərək silmək 
-## eyni listin son elementini silmək 
-## eyni listin hər hansısa elementini indeksini göstərərək silmək (hər iki üsul ilə) 
-## sonda listin daxilindəki bütün elementləri silmək 
+## list1 = [5,22,10,49,58,2,9,100,6,13] listindəki 10-dan böyük elementləri çap etmək 
+## list1 = [2,4,6,8,10,12,14,16,18,20] listindəki hər elementi ikiyə vurub yeni list yaratmaq 
+## list1 = [2,5,6,10,11,13,16] listindəki elementləri ikiyə böldükdə qalıqsız olanları yeni listə əlavə etmək 
+## list1 = ["school","class","university","bachelor","book","student"] listindəki elementlər daxilində 'c' dən istifadə olunmayanları yeni list qurub ora əlavə etmək
