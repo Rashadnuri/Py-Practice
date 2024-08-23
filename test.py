@@ -1,72 +1,38 @@
-thislist = ["apple", "banana", "cherry"]
-for x in thislist:
-  print(x)
-  
-  
-thislist = ["apple", "banana", "cherry"]
-for i in range(len(thislist)):
-  print(thislist[i])
+a = 8 
+b = 16 
+a = a + (b != a)
+print(a)
 
+x = [0,1,2,3,4]
+x[1:4]=[9,8,7]
+print(x)
 
-thislist = ["apple", "banana", "cherry"]
-i = 0
-while i < len(thislist):
-  print(thislist[i])
-  i = i + 1
-  
+print(10//3)
 
-fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
-newlist = []
+print((4**2)%3)
 
-for x in fruits:
-  if "a" in x:
-    newlist.append(x)
+z = [1,2,3]
+print(sum(z))
 
-print(newlist)
+m = 3 
+n = "3"
+print(x == n)
 
+a = [1,2,3]
+b = a 
+b.append(4)
+print(a)
 
- 
- 
-fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
-newlist = []
+print(type(5/2))
+print(type(5//2))
 
-for x in fruits:
-  if x != "a":
-    newlist.append(x)
+x1 = [10,11,12,13,14]
+x2 = x1[::-1].append(15)
+print(x2)
 
-print(newlist)
+a = [1,2,3]
+b = a[:]
+b[0] = 5 
+print(a)
+print(b)
 
-
-newlist = []
-for x in range(10):
-   newlist.append(x)
-   print(newlist)
-   
-   
-newlist = [x for x in range(10)]
-
-print(newlist)
-
-
-newlist = [x for x in range(10) if x < 5]
-
-print(newlist)
-
-#list1 = range(10)
-#for i in list1 : 
-#  print(i+10)
-
-#list1 = [2,5,6,10,11,13,16]
-#list2 = []
-#for i in list1: 
-# if i%2 == 0:
-#    list2.append(i)
-#print(list2)
-
-#fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
-#newlist = []
-
-#or x in fruits:
-#  if 'a' not in x:
-#    newlist.append(x)
-#print(newlist)

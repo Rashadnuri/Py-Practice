@@ -1,54 +1,29 @@
-#lalealiyev
-#bos bir list qurub,append metod istifade ederek liste hem string,hem int hem de boolean elementi daxil etmek
-#1-ci taski etdikden sonra elave etdiyiniz elementlerin uzerinde listin 2-ci elementi olacaq sekilde yeni element daxil etmek
-#2-ci taski etdikden sonra listin ilk elementini onun adindan istifade ederek silmek
-#eyni listin son elementini silmek 
-#eyni listin her hansisa elementini indeksini gostererek silmek(her iki usul ile)
-#sonda listin daxilindeki butun elementleri silmek 
+theylist=[5,22,10,49,58,2,9,100,6,13] 
+itislist=[]
+for i in theylist:
+    if i<10:
+         itislist.append(i)
+print(itislist)
 
 
-abc=[1,44,'kitab',25,"qelem"]
-abc.append(23)
-abc.append(True)
-abc.append("red")
-print(abc)
-
-abc.insert(2,False)
-print(abc)
-
-abc.remove(1)
-print(abc)
-
-abc.pop()
-print(abc)
-
-abc.pop(2)
-print(abc)
-
-del abc[2]
-print(abc)
-
-abc.clear()
-print(abc)
+list1234576576 = [2,4,6,8,10,12,14,16,18,20]
+[print (i*2) for i in list1234576576]
+print(list1234576576)
 
 
-a=[]
-a.extend ([1,2,3,True,False,'hello','hallo'])
-#print(a)
-#a.append ([1,2,3, True,False,'hello','hallo'])
-#print(a)
-#a.append (1)
-#a.append ('hello')
-#a.append (True)
-#print(a)
-a.insert(2,'new')
-print(a)
-a.pop()
-print(a)
-del a[2]
-print(a)
-a.pop(2)
-print(a)
-a.clear ()
-print(a)
+listm = [2,4,6,8,10,12,14,16,18,20]
+theylist=[x*2 for x in listm]
+print(theylist)
 
+
+listold = [2,5,6,10,11,13,16]
+listnew= [x //2  for x in listold]
+print(listnew)
+
+
+a = ["school","class","university","bachelor","book","student"]
+b=[]
+for x in a:
+     if 'c' not in x:
+        b.append(x)
+     print(b)
